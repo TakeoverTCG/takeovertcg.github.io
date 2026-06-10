@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Takeover TCG</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    background:linear-gradient(135deg,#1e1e1e,#292929);
+    text-align:center;
+    padding:100px 20px;
+}
+
+header h1{
+    font-size:4rem;
+    color:#ffb300;
+    text-shadow:0 0 15px #ffb300;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.3rem;
+    color:#ddd;
+}
+
+.cta{
+    margin-top:30px;
+}
+
+.cta a{
+    display:inline-block;
+    padding:15px 35px;
+    background:#ffb300;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.cta a:hover{
+    background:#ffd54f;
+    transform:scale(1.05);
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ffb300;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:25px;
+    border-radius:12px;
+    border:1px solid #333;
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#ffb300;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.gallery div{
+    height:300px;
+    background:#222;
+    border:2px dashed #555;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#888;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#0a0a0a;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>TAKEOVER</h1>
+    <p>Build. Conquer. Take Over.</p>
+
+    <div class="cta">
+        <a href="#about">Learn More</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About The Game</h2>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+        Takeover is a strategic trading card game where players battle for control,
+        deploy powerful units, and outmaneuver opponents to dominate the battlefield.
+        Build unique decks, discover rare cards, and create your own path to victory.
+    </p>
+</section>
+
+<section>
+    <h2>Game Features</h2>
+
+    <div class="features">
+        <div class="card">
+            <h3>Custom Deckbuilding</h3>
+            <p>Create powerful combinations and strategies.</p>
+        </div>
+
+        <div class="card">
+            <h3>Rare Collectibles</h3>
+            <p>Hunt for Ultra Rares, Foils, and Alternate Arts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Competitive Play</h3>
+            <p>Challenge friends and become the ultimate champion.</p>
+        </div>
+
+        <div class="card">
+            <h3>Growing Universe</h3>
+            <p>New cards, factions, and mechanics every set.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Card Gallery</h2>
+
+    <div class="gallery">
+        <div>Your Card Art</div>
+        <div>Your Card Art</div>
+        <div>Your Card Art</div>
+        <div>Your Card Art</div>
+    </div>
+</section>
+
+<section>
+    <h2>Join The Community</h2>
+
+    <p style="text-align:center;">
+        Follow development updates, vote on future content, and be among the first
+        to play Takeover.
+    </p>
+
+    <div class="cta" style="text-align:center;">
+        <a href="#">Discord</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Takeover TCG. All Rights Reserved.
+</footer>
+
+</body>
+</html>
